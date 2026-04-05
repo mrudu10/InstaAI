@@ -47,12 +47,13 @@ Guardrail Latency: Which specific safety check is slowing down the response.
 
 # 7.2 The Trace Object Structure
 Every interaction generates a unique TraceID containing the following telemetry:
-Layer       | Data Captured                                                 | Purpose                                              |
-Input       | User Query + Video ID + Timestamp                             | Contextual baseline.                                 |
-Extraction  | OCR Text + Detected Objects + Audio Transcript                | Verify what the "eyes and ears" of the AI perceived. |
-Prompt      | The final hidden system prompt sent to the LLM                | Audit the "instructions" vs the "output."            |
-LLM Raw     | The unedited response from the model                          | Detect hallucinations before guardrails filtered them|
-Guardrail   | Boolean flags (PII_Found, Safety_Trigger, Hallucination_Risk) | Measure guardrail accuracy                           |
+|Layer       | Data Captured                                                 | Purpose                                              |
+| :--- | :--- | :--- |
+|Input       | User Query + Video ID + Timestamp                             | Contextual baseline.                                 |
+|Extraction  | OCR Text + Detected Objects + Audio Transcript                | Verify what the "eyes and ears" of the AI perceived. |
+|Prompt      | The final hidden system prompt sent to the LLM                | Audit the "instructions" vs the "output."            |
+|LLM Raw     | The unedited response from the model                          | Detect hallucinations before guardrails filtered them|
+|Guardrail   | Boolean flags (PII_Found, Safety_Trigger, Hallucination_Risk) | Measure guardrail accuracy                           |
 
 
 # 7.3 Debugging Workflows

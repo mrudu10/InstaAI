@@ -48,7 +48,6 @@ Guardrail Latency: Which specific safety check is slowing down the response.
 # 7.2 The Trace Object Structure
 Every interaction generates a unique TraceID containing the following telemetry:
 |Layer       | Data Captured                                                 | Purpose                                              |
-| :--- | :--- | :--- |
 |Input       | User Query + Video ID + Timestamp                             | Contextual baseline.                                 |
 |Extraction  | OCR Text + Detected Objects + Audio Transcript                | Verify what the "eyes and ears" of the AI perceived. |
 |Prompt      | The final hidden system prompt sent to the LLM                | Audit the "instructions" vs the "output."            |

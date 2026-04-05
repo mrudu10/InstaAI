@@ -26,11 +26,12 @@ Processing: InstaAI analyzes the video data and generates a formatted response (
 Refinement: The user can type a follow-up or close the sheet to return to the video.
 
 # 5. Success Metrics
-Metric           | Definition                                               | Goal  | 
-Engagement Rate  | % of Reel viewers who interact with InstaAI              | >15%  |
-Accuracy Score   | Human-evaluated relevance of AI answers to video content | >90%  |
-Retention        | Users who return to use InstaAI within 7 days.           | >40%  |
-Safety Violations| The number of times PII or unsafe content is surfaced.   |  0    |
+| Metric | Definition | Goal |
+| :--- | :--- | :--- |
+| **Engagement Rate** | % of Reel viewers who interact with InstaAI | >15% |
+| **Accuracy Score** | Human-evaluated relevance of AI answers to video content | >90% |
+| **Retention** | Users who return to use InstaAI within 7 days | >40% |
+| **Safety Violations** | The number of times PII or unsafe content is surfaced | 0 |
 
 
 # 6. Roadmap
